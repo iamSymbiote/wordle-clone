@@ -97,7 +97,7 @@ nav h1 {
   margin: 5px;
 }
 .line3 {
-  flex: 33%;
+  flex: 32%;
   display: flex;
   flex-direction: row;
   justify-content: center;
