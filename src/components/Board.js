@@ -1,17 +1,9 @@
 import React, {useState} from 'react';
 import {boardDefault} from "../Words";
-import * as PropTypes from "prop-types";
-
-function Letter(props) {
-    return null;
-}
-
-Letter.propTypes = {
-    letterPos: PropTypes.number,
-    attemptVal: PropTypes.number
-};
+import Letter from "./Letter";
 
 function Board() {
+    const [board, setBoard] = useState(boardDefault);
     return (
         <div className="board">
             {" "}
